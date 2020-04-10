@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+
+<head> <script data-ad-client="ca-pub-6242144722187210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
 <body>
 <title>All 'n All PUBG Tournaments</title>
 <img src="pubg.jpg" width="1500" height="500">
