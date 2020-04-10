@@ -20,7 +20,7 @@ Prize:-<br>
 Rs. 5 per kill<br>
 Rs. 60 for Chicken Dinner<br> 
 Rs. 30 for Second Place<br>
-Rs. 10 for Third Place<br>
+Rs. 10 for Third Place<br><br>
 
 Entry Fee :- Rs. 10 per player<br>
 <br>
@@ -44,7 +44,7 @@ Once your registered is validated, then you will be added to a group where you w
 
 <h2>USEFUL LINKS:<br></h2>
 
-Click <a href="https://www.toornament.com/en_GB/tournaments/3415329751851745280/information">here</a> for full details <br>
+Click <a href="https://www.toornament.com/en_GB/tournaments/3415329751851745280/information">here</a> for toornament details<br>
 <br>
 Click <a href="https://wa.me/919410576788"> here</a> for registration<br>
 <br>
