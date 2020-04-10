@@ -67,6 +67,7 @@ For queries contact:<br><br><ul>
 THANK YOU !
 </em></strong></p>
 <br><br>
+<h4>👇🏻VIEWS COUNT👇🏻</h4>
 <!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
 <img src="https://hitwebcounter.com/counter/counter.php?page=7227329&style=0009&nbdigits=5&type=ip&initCount=0" title="User Stats" Alt="PHP Hits Count"   border="0" >
