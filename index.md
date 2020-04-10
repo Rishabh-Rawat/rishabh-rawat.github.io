@@ -56,7 +56,7 @@ Click <a href="https://www.youtube.com/channel/UC1xO4OMpSJSMWMq56M_JMaA"> here</
 <br>
 Click <a href="https://t.me/allnallpubgtournaments"> here</a> to follow us on Telegram<br>
 <br>
-For queries contact:<br><ul> 
+For queries contact:<br><br><ul> 
 <li><a href="https://wa.me/919410576788">Rishabh Rawat</a></li><br>
 <li><a href="https://wa.me/917617409819">Manik Baunthiyal</a></li><br></ul>
 <br><br>
