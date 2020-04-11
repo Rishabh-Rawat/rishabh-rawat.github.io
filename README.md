@@ -1,1 +1,1 @@
-rishabh-rawat.github.io/pubgtournaments
+rishabh-rawat.github.io
