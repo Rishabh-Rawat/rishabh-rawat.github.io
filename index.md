@@ -8,7 +8,7 @@
 <title>All 'n All PUBG Tournaments</title>
 <img src="pubg.jpg" width="1500" height="500">
 <h1>PUBG MOBILE SQUAD TOURNAMENT</h1>
-<p><strong><em>Date:- 11th April 2020 <br>
+<p><strong><em>Date:- 9th MAY 2020 <br>
 <br>
 Day:- Saturday<br>
 <br>
@@ -38,7 +38,7 @@ PLAYER 4:-<br>
 2.  Send screenshot of Entry fee Payment to the same number. We will respond to your registration request ASAP and will validate it once we confirm the entry fee payment.<br>
 Once your registered is validated, then you will be added to a group where you will get Room ID and password.<br><br>
 
-3. Registrations will be closed by 11:00 PM 11th April 2020 .Complete your payments by then.<br><br>
+3. Registrations will be closed by 11:00 PM 9th MAY 2020 .Complete your payments by then.<br><br>
 
 4.  Room ID and Password will be given in the WhatsApp group, for which link will be given when you pay entry fee.<br><br>
 
@@ -48,7 +48,7 @@ Click <a href="https://www.toornament.com/en_GB/tournaments/3415329751851745280/
 <br>
 Click <a href="https://wa.me/919410576788"> here</a> for registration<br>
 <br>
-Click <a href="https://chat.whatsapp.com/Jq1VZDFVRI8KxBaGP9affJ">here</a> to join our WhatsApp group<br>
+Click <a href="https://chat.whatsapp.com/Jq1VZDFVRI8KxBaGP9affJ">here</a> to join our WhatsApp Group<br>
 <br>
 Click <a href="https://discord.gg/AuMDtpJ">here</a> to join our Discord Server<br>
 <br>
@@ -58,7 +58,7 @@ Click <a href="https://www.instagram.com/allnall246174?r=nametag"> here</a> to c
 <br>
 Click <a href="https://www.youtube.com/channel/UC1xO4OMpSJSMWMq56M_JMaA"> here</a> to follow us on YouTube<br>
 <br>
-Click <a href="https://t.me/allnallpubgtournaments"> here</a> to follow us on Telegram<br>
+Click <a href="https://t.me/joinchat/LG9gCE_is0T0ZdPVrO-aDQ"> here</a> to join our Telegram Group<br>
 <br>
 For queries contact:<br><br><ul> 
 <li><a href="https://wa.me/919410576788">Rishabh Rawat</a></li><br>
