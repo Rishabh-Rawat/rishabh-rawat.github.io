@@ -68,6 +68,9 @@ THANK YOU !
 </em></strong></p>
 <br><br>
 <iframe width="640" height="360" src="https://widget.toornament.com/tournaments/3415329751851745280/?_locale=en_GB" allowfullscreen frameborder="0"></iframe><br><br>
+
+<iframe width="300" height="88" src="https://widget.toornament.com/tournaments/3415329751851745280/registration?_locale=en_GB&theme=discipline" allowfullscreen frameborder="0"></iframe>
+
 <h4>👇🏻VIEWS COUNT👇🏻</h4>
 <!-- hitwebcounter Code START -->
 <a href="https://www.hitwebcounter.com" target="_blank">
