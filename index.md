@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-<head> <script data-ad-client="ca-pub-6242144722187210" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</head>
-
 <body>
 <title>All 'n All PUBG Tournaments</title>
 <img src="pubg.jpg" width="1500" height="500">
 <h1>PUBG MOBILE SQUAD TOURNAMENT</h1>
-<p><strong><em>Date:- 9th MAY 2020 <br>
+<p><strong><em>Date:- 23rd MAY 2020 <br>
 <br>
 Day:- Saturday<br>
 <br>
@@ -17,10 +14,8 @@ Time:- 11:50 PM (Night)<br>
 Squad Erangel<br>
 <br>
 Prize:-<br> 
-Rs. 5 per kill<br>
-Rs. 60 for Chicken Dinner<br> 
-Rs. 30 for Second Place<br>
-Rs. 10 for Third Place<br><br>
+Rs. 10 per kill<br>
+Rs. 20 for Chicken Dinner<br> 
 
 Entry Fee :- Rs. 10 per player<br>
 <br>
@@ -38,7 +33,7 @@ PLAYER 4:-<br>
 2.  Send screenshot of Entry fee Payment to the same number. We will respond to your registration request ASAP and will validate it once we confirm the entry fee payment.<br>
 Once your registered is validated, then you will be added to a group where you will get Room ID and password.<br><br>
 
-3. Registrations will be closed by 11:00 PM 9th MAY 2020 .Complete your payments by then.<br><br>
+3. Registrations will be closed by 11:00 PM 23rd MAY 2020 .Complete your payments by then.<br><br>
 
 4.  Room ID and Password will be given in the WhatsApp group, for which link will be given when you pay entry fee.<br><br>
 
