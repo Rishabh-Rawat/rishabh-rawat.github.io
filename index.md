@@ -49,7 +49,7 @@ PLAYER 4:-<br>
 2.  Send screenshot of Entry fee Payment to the same number. We will respond to your registration request ASAP and will validate it once we confirm the entry fee payment.<br>
 Once your registered is validated, then you will be added to a group where you will get Room ID and password.<br><br>
 
-3. Registrations will be closed by 11:00 PM 23rd MAY 2020 .Complete your payments by then.<br><br>
+3. Registrations will be closed by 11:00 PM .Complete your payments by then.<br><br>
 
 4.  Room ID and Password will be given in the WhatsApp group, for which link will be given when you pay entry fee.<br><br>
 
