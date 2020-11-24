@@ -13,6 +13,9 @@
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=0123456789049-21&marketplace=amazon&region=IN&placement=9332550441&asins=9332550441&linkId=0073a9f77a1781db8e4eeb5a7e1087bc&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
     </iframe>
 
+<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=0123456789049-21&marketplace=amazon&region=IN&placement=9332582041&asins=9332582041&linkId=1bf47ca60e9608a56df34e401acc0295&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
+    </iframe>
+
 <img src="pubg.jpg" width="1500" height="500">
 <h1>PUBG MOBILE SQUAD TOURNAMENT</h1>
 <p><strong><em>Date:- 23rd MAY 2020 <br>
