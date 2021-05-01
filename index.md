@@ -16,7 +16,7 @@ Squad Erangel<br>
 <br>
 Prize:-<br> 
 Rs. 5 per kill<br>
-
+<br>
 Entry Fee :- Rs. 5 per player<br>
 <br>
 
