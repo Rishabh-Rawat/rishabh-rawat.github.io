@@ -14,10 +14,9 @@ Time:- 6:30 PM<br>
 <br>
 Squad Erangel<br>
 <br>
-Prize:-<br> 
-Rs. 5 per kill<br>
+Prize: Rs. 5 per kill<br>
 <br>
-Entry Fee :- Rs. 5 per player<br>
+Entry Fee : Rs. 5 per player<br>
 <br>
 
 <h2>📝 Complete your registration<br></h2>
