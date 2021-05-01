@@ -10,7 +10,7 @@
 <br>
 Day:- Saturday<br>
 <br>
-Time:- 6:30 PM (Night)<br>
+Time:- 6:30 PM<br>
 <br>
 Squad Erangel<br>
 <br>
