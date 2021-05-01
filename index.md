@@ -4,32 +4,20 @@
 <body>
 <title>All 'n All PUBG Tournaments</title>
 
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=0123456789049-21&marketplace=amazon&region=IN&placement=B08HW9492C&asins=B08HW9492C&linkId=3a5f59756dd1394450c7156f2d0fd394&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF">
-    </iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=0123456789049-21&marketplace=amazon&region=IN&placement=B08HJXVDHN&asins=B08HJXVDHN&linkId=c17b828a97b2a7b835018d17b0a51f78&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=0123456789049-21&marketplace=amazon&region=IN&placement=B08JJ56R8V&asins=B08JJ56R8V&linkId=401c8c5126b4b922dadfec20d0140702&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
-
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-in.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=IN&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=0123456789049-21&marketplace=amazon&region=IN&placement=B07634VTH3&asins=B07634VTH3&linkId=e6f8ccb4e203b01849c6a879d7979433&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff">
-    </iframe>
 <img src="pubg.jpg" width="1500" height="500">
 <h1>PUBG MOBILE SQUAD TOURNAMENT</h1>
-<p><strong><em>Date:- TBA <br>
+<p><strong><em>Date:- 08/05/2021 <br>
 <br>
 Day:- Saturday<br>
 <br>
-Time:- 11:50 PM (Night)<br>
+Time:- 6:30 PM (Night)<br>
 <br>
 Squad Erangel<br>
 <br>
 Prize:-<br> 
-Rs. 10 per kill<br>
-Rs. 20 for Chicken Dinner<br> 
+Rs. 5 per kill<br>
 
-Entry Fee :- Rs. 10 per player<br>
+Entry Fee :- Rs. 5 per player<br>
 <br>
 
 <h2>📝 Complete your registration<br></h2>
@@ -45,7 +33,7 @@ PLAYER 4:-<br>
 2.  Send screenshot of Entry fee Payment to the same number. We will respond to your registration request ASAP and will validate it once we confirm the entry fee payment.<br>
 Once your registered is validated, then you will be added to a group where you will get Room ID and password.<br><br>
 
-3. Registrations will be closed by 11:00 PM .Complete your payments by then.<br><br>
+3. Registrations will be closed by 6:00 PM .Complete your payments by then.<br><br>
 
 4.  Room ID and Password will be given in the WhatsApp group, for which link will be given when you pay entry fee.<br><br>
 
