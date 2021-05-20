@@ -6,7 +6,7 @@
 
 <img src="pubg.jpg" width="1500" height="500">
 <h1>PUBG MOBILE SQUAD TOURNAMENT</h1>
-<p><strong><em>Date:- 08/05/2021 <br>
+<p><strong><em>Date:- 22/05/2021 <br>
 <br>
 Day:- Saturday<br>
 <br>
@@ -21,7 +21,7 @@ Entry Fee : Rs. 5 per player<br>
 
 <h2>📝 Complete your registration<br></h2>
 <br>
-1. SEND THE TEAM DETAILS TO <a href ="https://wa.me/919410576788"> Rishabh Rawat</a> IN THE FOLLOWING FORMAT.<br>
+1. SEND THE TEAM DETAILS TO <a href ="https://wa.me/17575309844"> Rishabh Rawat</a> IN THE FOLLOWING FORMAT.<br>
 <br>
 TEAM NAME:-<br>
 PLAYER 1:-<br>
@@ -55,8 +55,8 @@ Click <a href="https://www.youtube.com/channel/UC1xO4OMpSJSMWMq56M_JMaA"> here</
 Click <a href="https://t.me/joinchat/LG9gCE_is0T0ZdPVrO-aDQ"> here</a> to join our Telegram Group<br>
 <br>
 For queries contact:<br><br><ul> 
-<li><a href="https://wa.me/919410576788">Rishabh Rawat</a></li><br>
-<li><a href="https://wa.me/917617409819">Manik Baunthiyal</a></li><br></ul>
+<li><a href="https://wa.me/17575309844">Rishabh Rawat</a></li><br>
+<li><a href="https://wa.me/17577944169">Manik Baunthiyal</a></li><br></ul>
 <br><br>
 THANK YOU !
 </em></strong></p>
