@@ -48,7 +48,7 @@ Click <a href="https://discord.gg/AuMDtpJ">here</a> to join our Discord Server<b
 <br>
 Click <a href="https://www.facebook.com/PUBG-Mobile-Tournaments-745088795858501/?ti=as"> here</a> to see our Facebook Page<br>
 <br>
-Click <a href="https://www.instagram.com/allnall246174?r=nametag"> here</a> to check us on Instagram<br>
+Click <a href="https://www.instagram.com/pubg_mobile_tournaments_69/"> here</a> to check us on Instagram<br>
 <br>
 Click <a href="https://www.youtube.com/channel/UC1xO4OMpSJSMWMq56M_JMaA"> here</a> to follow us on YouTube<br>
 <br>
