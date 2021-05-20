@@ -40,7 +40,7 @@ Once your registered is validated, then you will be added to a group where you w
 
 Click <a href="https://www.toornament.com/en_GB/tournaments/3415329751851745280/information">here</a> for toornament details<br>
 <br>
-Click <a href="https://wa.me/919410576788"> here</a> for registration<br>
+Click <a href="https://wa.me/17575309844"> here</a> for registration<br>
 <br>
 Click <a href="https://chat.whatsapp.com/Jq1VZDFVRI8KxBaGP9affJ">here</a> to join our WhatsApp Group<br>
 <br>
