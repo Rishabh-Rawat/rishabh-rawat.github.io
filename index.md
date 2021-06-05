@@ -4,7 +4,7 @@
 <body>
 <title>All 'n All PUBG Tournaments</title>
 
-<img src="22-5-21.jpeg" width="1500" height="1600">
+<img src="pubg.jpg" width="1500" height="11000">
 <h1>PUBG MOBILE SQUAD TOURNAMENT</h1>
 <p><strong><em>Date:- 22/05/2021 <br>
 <br>
