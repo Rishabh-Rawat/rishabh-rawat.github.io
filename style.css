@@ -66,3 +66,8 @@ span {
   height: 12rem;
   width: 12rem;
 }
+
+#reset {
+  font-size: 2rem;
+  float: right;
+}
