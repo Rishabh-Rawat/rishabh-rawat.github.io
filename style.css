@@ -1,6 +1,6 @@
 * {
-  /* margin: 0px;
-  padding: 0px; */
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   /* background-color: black; */
 }
@@ -20,15 +20,15 @@ body {
   /* height: 50rem;
   width: 50rem; */
   background-color: rgb(245, 244, 197);
-  /* margin: auto; */
-  margin-top: 5rem;
+  margin: 50px;
+  padding: 5rem;
   border-radius: 5rem;
 }
 
 #title {
   /* background-color: rgb(245, 244, 197); */
   text-align: center;
-  margin-top: 1rem;
+  /* margin-top: 0.5rem; */
   color: red;
   font-size: 3rem;
   font-style: italic;
@@ -46,9 +46,10 @@ span {
   width: 36rem; */
   border: none;
   display: grid;
-  margin: 10rem;
-  margin-left: 10rem;
-  margin-bottom: 20rem;
+  /* margin: 10rem; */
+  /* margin-left: 10rem; */
+  margin-bottom: 6rem;
+  margin-top: 9rem;
   grid-gap: 0.6rem;
   background-color: black;
 
@@ -58,6 +59,9 @@ span {
 
 .box {
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(245, 244, 197);
   height: 12rem;
   width: 12rem;
