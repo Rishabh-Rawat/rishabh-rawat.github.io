@@ -39,6 +39,7 @@ span {
   /* border: 0.59rem solid black; */
   /* height: 36rem;
   width: 36rem; */
+  border: none;
   display: grid;
   margin: 2.7rem;
   margin-left: 3rem;
