@@ -34,7 +34,7 @@ body {
   font-style: italic;
 }
 
-span {
+.titl {
   font-family: fantasy;
   margin-right: 0.2rem;
   font-weight: bold;
@@ -65,9 +65,23 @@ span {
   background-color: rgb(245, 244, 197);
   height: 12rem;
   width: 12rem;
+  cursor: pointer;
 }
 
 #reset {
   font-size: 2rem;
   float: right;
+  background-color: rgb(204, 201, 46);
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+#turn {
+  font-size: 1.7rem;
+  float: left;
+  background-color: rgb(204, 201, 46);
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
 }
