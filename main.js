@@ -6,6 +6,8 @@ let boxes = document.querySelectorAll(".box");
 
 let turn = document.getElementById("turn")
 
+var result = document.getElementById("result");
+
 let state ;
 var cx;
 var co;
@@ -28,6 +30,7 @@ function initialize()
     game = true;
     x_pos = [];
     o_pos = [];
+    state = "X";
 }
 
 function clearAll()
@@ -36,6 +39,7 @@ function clearAll()
     {
         box.textContent="";
     }
+    result.textContent="";
     initialize();
     start();
 }
@@ -43,6 +47,8 @@ function clearAll()
 function start()
 {
     boxes.forEach(box => {box.addEventListener("click",play,{once:true})})
+    turn.textContent = state+"'s Turn Now";
+    turn.style.backgroundColor = "rgb(204, 201, 46)";
 }
 
 function mark(box)
@@ -128,22 +134,36 @@ function play(e)
         mark(box);
         scores();
         check();
+        turn.textContent = state+"'s Turn Now";
+        turn.style.backgroundColor = "rgb(204, 201, 46)";
 
         if (winner=="X")
         {
-            alert("X won");
+            result.textContent="PLAYER X WON";
+            result.style.backgroundColor = "rgb(204, 201, 46)"; 
+            turn.textContent = "";
+            turn.style.backgroundColor = "rgb(245, 244, 197)";
+            // alert("X won");
             game=false;
             console.log("Game Over");
         }
         else if(winner=="O")    
         {
-            alert("O won");
+            result.textContent="PLAYER O WON";
+            result.style.backgroundColor = "rgb(204, 201, 46)"; 
+            turn.textContent = "";
+            turn.style.backgroundColor = "rgb(245, 244, 197)";
+            // alert("O won");
             game=false;
             console.log("Game Over");
         }
         else if(ctr==9)
         {
-            alert("Draw");
+            result.textContent="DRAW";
+            result.style.backgroundColor = "rgb(204, 201, 46)"; 
+            turn.textContent = "";
+            turn.style.backgroundColor = "rgb(245, 244, 197)";
+            // alert("Draw");
             game=false;
             console.log("Game Over");
         }

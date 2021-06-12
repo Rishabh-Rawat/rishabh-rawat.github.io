@@ -28,7 +28,6 @@ body {
 #title {
   /* background-color: rgb(245, 244, 197); */
   text-align: center;
-  /* margin-top: 0.5rem; */
   color: red;
   font-size: 3rem;
   font-style: italic;
@@ -49,7 +48,7 @@ body {
   /* margin: 10rem; */
   /* margin-left: 10rem; */
   margin-bottom: 6rem;
-  margin-top: 9rem;
+  margin-top: 5rem;
   grid-gap: 0.6rem;
   background-color: black;
 
@@ -80,8 +79,17 @@ body {
 #turn {
   font-size: 1.7rem;
   float: left;
-  background-color: rgb(204, 201, 46);
   border: none;
   padding: 0.5rem;
   cursor: pointer;
+}
+
+#result {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
+div.box:hover {
+  background-color: rgb(218, 217, 158);
 }
