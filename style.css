@@ -74,13 +74,17 @@ body {
   border: none;
   padding: 0.5rem;
   cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
 }
 
 #turn {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
   font-size: 1.7rem;
   float: left;
   border: none;
-  padding: 0.5rem;
+  padding: 0.65rem;
   cursor: pointer;
 }
 
@@ -88,6 +92,8 @@ body {
   text-align: center;
   margin-top: 2rem;
   font-size: 4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
 }
 
 div.box:hover {

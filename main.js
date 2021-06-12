@@ -175,7 +175,6 @@ function play(e)
 }
 
 
-
 // for (let box of boxes)
 // {
 //     box.addEventListener("click", mark);
