@@ -5,16 +5,30 @@ let boxes = document.querySelectorAll(".box");
 // console.log(boxes);
 
 let turn = document.getElementById("turn")
-let state = "X"
 
-var cx = 0;
-var co = 0;
-
-var remaining = [0,1,2,3,4,5,6,7,8]; 
+let state ;
+var cx;
+var co;
+var ctr;
+var winner;
+var remaining;
+var game;
 
 const wins = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
-var x_pos = [];
-var o_pos = [];
+var x_pos;
+var o_pos;
+
+function initialize()
+{
+    cx = 0;
+    co = 0;
+    ctr = 0;
+    winner = null;
+    remaining = [0,1,2,3,4,5,6,7,8]; 
+    game = true;
+    x_pos = [];
+    o_pos = [];
+}
 
 function clearAll()
 {
@@ -22,9 +36,14 @@ function clearAll()
     {
         box.textContent="";
     }
+    initialize();
+    start();
 }
 
-boxes.forEach(box => {box.addEventListener("click",play,{once:true})})
+function start()
+{
+    boxes.forEach(box => {box.addEventListener("click",play,{once:true})})
+}
 
 function mark(box)
 {
@@ -39,7 +58,7 @@ function mark(box)
         state = "X";
     }
     box.style.fontSize= "xxx-large"; 
-    box.style.fontFamily= "cursive"; 
+    // box.style.fontFamily= "cursive"; 
     box.style.fontWeight= "1000";
 }
 
@@ -68,53 +87,69 @@ function scores()
 
 function check()
 {
-    cx = 0;
-    co = 0;
-
-    for (let i=0;i<8;i++)
-    {   
-        cx = 0;
-        for (let j = 0;j<2 ; j++)
+    if (x_pos.length>=3 || o_pos.length>=3) 
+    {
+        for (let i = 0;i<8 ; i++)
         {
-            for (let k =0;k<x_pos.length;k++)
+            const check= wins[i].every(val => x_pos.includes(val));
+
+            if (check)
             {
-                if (wins[i][j]==x_pos[k])
-                    cx++;
+                winner = "X";
+                break;
             }
         }
-    }
 
-    for (i=0;i<8;i++)
-    {   
-        co = 0;
-        for (j = 0;j<2 ; j++)
+        for (i = 0;i<8 ; i++)
         {
-            for (k =0;k<o_pos.length;k++)
+            const check= wins[i].every(val => o_pos.includes(val));
+
+            if (check)
             {
-                if (wins[i][j]==o_pos[k])
-                    co++;
+                winner = "O";
+                break;
             }
         }
-    }
-    console.log("X = ",cx)
-    console.log("O = ",co)
-
-    if (cx>=3)
-    {
-        console.log("X winner");
-    }
-    else if(co>=3)
-    {
-        console.log("O winner");
+        // console.log(winner);
     }
 }
 
+initialize();
+start();
 function play(e)
 {
-    let box = e.target;
-    mark(box);
-    scores();
-    check();
+    
+    if (game)
+    {
+        ctr++;
+        // console.log(ctr);
+        reset.addEventListener("click", clearAll);
+        let box = e.target;
+        mark(box);
+        scores();
+        check();
+
+        if (winner=="X")
+        {
+            alert("X won");
+            game=false;
+            console.log("Game Over");
+        }
+        else if(winner=="O")    
+        {
+            alert("O won");
+            game=false;
+            console.log("Game Over");
+        }
+        else if(ctr==9)
+        {
+            alert("Draw");
+            game=false;
+            console.log("Game Over");
+        }
+    }
+    reset.addEventListener("click", clearAll);
+    
     // console.log(x_pos);
     // console.log(o_pos);
 }
@@ -139,8 +174,7 @@ function play(e)
 //     reset.addEventListener("click", clearAll);
 // }
 
-reset.addEventListener("click", clearAll);
-boxes.forEach(box => {box.addEventListener("click",play,{once:true})})
+// boxes.forEach(box => {box.addEventListener("click",play,{once:true})})
 
 
 
