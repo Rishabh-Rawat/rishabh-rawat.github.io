@@ -16,6 +16,14 @@ var zero = document.getElementById("zero");
 
 var begin = document.getElementById("begin");
 
+var x_score = 0;
+var o_score = 0;
+
+var x_score_dom = document.getElementById("x_score");
+var o_score_dom = document.getElementById("o_score");;
+
+var matches = 0;
+
 let state ;
 var cx;
 var co;
@@ -28,10 +36,18 @@ const wins = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
 var x_pos;
 var o_pos;
 
+function show_score()
+{
+    x_score_dom.textContent = "X SCORE: "+x_score.toString();
+    o_score_dom.textContent = "O SCORE: "+o_score.toString();
+}
+
 function initialize_two()
-{   two_p.textContent = "";
+{   
+    two_p.textContent = "";
     two_p.style.backgroundColor = "rgb(245, 244, 197)";
-    choose();
+    if (matches==0)
+        choose();
     cx = 0;
     co = 0;
     ctr = 0;
@@ -48,6 +64,7 @@ function clearAll()
     for (let box of boxes)
     {
         box.textContent="";
+        box.style.color = "black";
     }
     result.textContent="";
     cross.textContent = "";
@@ -58,9 +75,13 @@ function clearAll()
     zero.style.backgroundColor = "rgb(245, 244, 197)";
     turn.textContent="";
     turn.style.backgroundColor = "rgb(245, 244, 197)";
-    two_p.textContent = "2 Player";
-    two_p.style.backgroundColor = "rgb(204, 201, 46)";
-    mode();
+    if (matches==0)
+    {
+        two_p.textContent = "2 Player";
+        two_p.style.backgroundColor = "rgb(204, 201, 46)";
+        mode();
+    }
+    initialize_two();
 }
 
 function choose(){
@@ -85,6 +106,7 @@ function startCross(){
     zero.style.backgroundColor = "rgb(245, 244, 197)";
     turn.textContent = state+"'s Turn Now";
     turn.style.backgroundColor = "rgb(204, 201, 46)";
+    show_score();
 }
 
 function startZero(){
@@ -97,6 +119,7 @@ function startZero(){
     zero.style.backgroundColor = "rgb(245, 244, 197)";
     turn.textContent = state+"'s Turn Now";
     turn.style.backgroundColor = "rgb(204, 201, 46)";
+    show_score();
 }
 
 function start()
@@ -155,6 +178,8 @@ function check()
             if (check)
             {
                 winner = "X";
+                x_score++;
+                win = wins[i];
                 break;
             }
         }
@@ -166,6 +191,8 @@ function check()
             if (check)
             {
                 winner = "O";
+                o_score++;
+                win = wins[i];
                 break;
             }
         }
@@ -197,7 +224,13 @@ function two_play(e)
 
         if (winner=="X")
         {
+            for (i of win)
+            {
+                boxes[i].style.color = "red";
+            }
             result.textContent="PLAYER X WON";
+            matches++;
+            show_score();
             result.style.backgroundColor = "rgb(204, 201, 46)"; 
             turn.textContent = "";
             turn.style.backgroundColor = "rgb(245, 244, 197)";
@@ -213,7 +246,13 @@ function two_play(e)
         }
         else if(winner=="O")    
         {
+            for (i of win)
+            {
+                boxes[i].style.color = "red";
+            }
             result.textContent="PLAYER O WON";
+            matches++;
+            show_score();
             result.style.backgroundColor = "rgb(204, 201, 46)"; 
             turn.textContent = "";
             turn.style.backgroundColor = "rgb(245, 244, 197)";
@@ -230,6 +269,7 @@ function two_play(e)
         else if(ctr==9)
         {            
             result.textContent="DRAW";
+            matches++;
             result.style.backgroundColor = "rgb(204, 201, 46)"; 
             turn.textContent = "";
             turn.style.backgroundColor = "rgb(245, 244, 197)";

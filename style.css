@@ -150,3 +150,21 @@ div.box:hover {
   padding: 0.65rem;
   clear: both;
 }
+
+#x_score {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.7rem;
+  float: left;
+  margin-top: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+}
+
+#o_score {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.7rem;
+  float: right;
+  margin-top: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+}
