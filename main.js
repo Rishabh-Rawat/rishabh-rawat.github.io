@@ -8,6 +8,8 @@ let turn = document.getElementById("turn")
 
 var result = document.getElementById("result");
 
+var two_p = document.getElementById("two_p");
+
 let state ;
 var cx;
 var co;
@@ -31,6 +33,7 @@ function initialize()
     x_pos = [];
     o_pos = [];
     state = "X";
+    start();
 }
 
 function clearAll()
@@ -46,7 +49,7 @@ function clearAll()
 
 function start()
 {
-    boxes.forEach(box => {box.addEventListener("click",play,{once:true})})
+    boxes.forEach(box => {box.addEventListener("click",two_play,{once:true})})
     turn.textContent = state+"'s Turn Now";
     turn.style.backgroundColor = "rgb(204, 201, 46)";
 }
@@ -120,9 +123,12 @@ function check()
     }
 }
 
-initialize();
-start();
-function play(e)
+
+two_p.addEventListener("click",initialize);
+
+// initialize();
+// start();
+function two_play(e)
 {
     
     if (game)
@@ -139,6 +145,8 @@ function play(e)
 
         if (winner=="X")
         {
+            two_p.textContent = "";
+            two_p.style.backgroundColor = "rgb(245, 244, 197)";
             result.textContent="PLAYER X WON";
             result.style.backgroundColor = "rgb(204, 201, 46)"; 
             turn.textContent = "";
@@ -149,6 +157,8 @@ function play(e)
         }
         else if(winner=="O")    
         {
+            two_p.textContent = "";
+            two_p.style.backgroundColor = "rgb(245, 244, 197)";
             result.textContent="PLAYER O WON";
             result.style.backgroundColor = "rgb(204, 201, 46)"; 
             turn.textContent = "";
@@ -159,6 +169,8 @@ function play(e)
         }
         else if(ctr==9)
         {
+            two_p.textContent = "";
+            two_p.style.backgroundColor = "rgb(245, 244, 197)";
             result.textContent="DRAW";
             result.style.backgroundColor = "rgb(204, 201, 46)"; 
             turn.textContent = "";

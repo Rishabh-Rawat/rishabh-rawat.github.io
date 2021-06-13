@@ -31,9 +31,11 @@ body {
   color: red;
   font-size: 3rem;
   font-style: italic;
+  text-decoration: underline;
 }
 
 .titl {
+  text-decoration: underline;
   font-family: fantasy;
   margin-right: 0.2rem;
   font-weight: bold;
@@ -48,7 +50,7 @@ body {
   /* margin: 10rem; */
   /* margin-left: 10rem; */
   margin-bottom: 6rem;
-  margin-top: 5rem;
+  margin-top: 7rem;
   grid-gap: 0.6rem;
   background-color: black;
 
@@ -94,8 +96,21 @@ body {
   font-size: 3rem;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
+  clear: both;
 }
 
 div.box:hover {
   background-color: rgb(218, 217, 158);
+}
+
+#two_p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.7rem;
+  float: left;
+  margin-top: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+  background-color: rgb(204, 201, 46);
+  padding: 0.65rem;
+  cursor: pointer;
 }
