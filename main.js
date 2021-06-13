@@ -10,6 +10,12 @@ var result = document.getElementById("result");
 
 var two_p = document.getElementById("two_p");
 
+var cross = document.getElementById("cross");
+
+var zero = document.getElementById("zero");
+
+var begin = document.getElementById("begin");
+
 let state ;
 var cx;
 var co;
@@ -23,7 +29,9 @@ var x_pos;
 var o_pos;
 
 function initialize_two()
-{
+{   two_p.textContent = "";
+    two_p.style.backgroundColor = "rgb(245, 244, 197)";
+    choose();
     cx = 0;
     co = 0;
     ctr = 0;
@@ -32,7 +40,6 @@ function initialize_two()
     game = true;
     x_pos = [];
     o_pos = [];
-    state = "X";
     start();
 }
 
@@ -43,15 +50,58 @@ function clearAll()
         box.textContent="";
     }
     result.textContent="";
-    initialize();
-    start();
+    cross.textContent = "";
+    zero.textContent = "";
+    begin.textContent = "";
+    begin.style.backgroundColor = "rgb(245, 244, 197)";
+    cross.style.backgroundColor = "rgb(245, 244, 197)";
+    zero.style.backgroundColor = "rgb(245, 244, 197)";
+    turn.textContent="";
+    turn.style.backgroundColor = "rgb(245, 244, 197)";
+    two_p.textContent = "2 Player";
+    two_p.style.backgroundColor = "rgb(204, 201, 46)";
+    mode();
+}
+
+function choose(){
+    begin.textContent = "Which shape to begin with?";
+    begin.style.backgroundColor = "rgb(204, 201, 46)";
+    cross.textContent = "Cross";
+    zero.textContent = "Zero";
+    cross.style.backgroundColor = "rgb(204, 201, 46)";
+    zero.style.backgroundColor = "rgb(204, 201, 46)";
+    reset.addEventListener("click", clearAll);
+    cross.addEventListener("click",startCross);
+    zero.addEventListener("click",startZero);
+}
+
+function startCross(){
+    state = "X";
+    begin.textContent = "";
+    begin.style.backgroundColor = "rgb(245, 244, 197)";
+    cross.textContent = "";
+    zero.textContent = "";
+    cross.style.backgroundColor = "rgb(245, 244, 197)";
+    zero.style.backgroundColor = "rgb(245, 244, 197)";
+    turn.textContent = state+"'s Turn Now";
+    turn.style.backgroundColor = "rgb(204, 201, 46)";
+}
+
+function startZero(){
+    state = "O";
+    begin.textContent = "";
+    begin.style.backgroundColor = "rgb(245, 244, 197)";
+    cross.textContent = "";
+    zero.textContent = "";
+    cross.style.backgroundColor = "rgb(245, 244, 197)";
+    zero.style.backgroundColor = "rgb(245, 244, 197)";
+    turn.textContent = state+"'s Turn Now";
+    turn.style.backgroundColor = "rgb(204, 201, 46)";
 }
 
 function start()
-{
+{   
     boxes.forEach(box => {box.addEventListener("click",two_play,{once:true})})
-    turn.textContent = state+"'s Turn Now";
-    turn.style.backgroundColor = "rgb(204, 201, 46)";
 }
 
 function mark(box)
@@ -123,16 +173,18 @@ function check()
     }
 }
 
+function mode(){
+    two_p.addEventListener("click",initialize_two);
+}
 
-two_p.addEventListener("click",initialize_two);
-
-// initialize();
-// start();
+mode();
 function two_play(e)
 {
     
     if (game)
     {
+        turn.textContent = state+"'s Turn Now";
+        turn.style.backgroundColor = "rgb(204, 201, 46)";
         ctr++;
         // console.log(ctr);
         reset.addEventListener("click", clearAll);
@@ -145,36 +197,48 @@ function two_play(e)
 
         if (winner=="X")
         {
-            two_p.textContent = "";
-            two_p.style.backgroundColor = "rgb(245, 244, 197)";
             result.textContent="PLAYER X WON";
             result.style.backgroundColor = "rgb(204, 201, 46)"; 
             turn.textContent = "";
             turn.style.backgroundColor = "rgb(245, 244, 197)";
+            cross.textContent = "";
+            zero.textContent = "";
+            begin.textContent = "";
+            begin.style.backgroundColor = "rgb(245, 244, 197)";
+            cross.style.backgroundColor = "rgb(245, 244, 197)";
+            zero.style.backgroundColor = "rgb(245, 244, 197)";
             // alert("X won");
             game=false;
             console.log("Game Over");
         }
         else if(winner=="O")    
         {
-            two_p.textContent = "";
-            two_p.style.backgroundColor = "rgb(245, 244, 197)";
             result.textContent="PLAYER O WON";
             result.style.backgroundColor = "rgb(204, 201, 46)"; 
             turn.textContent = "";
             turn.style.backgroundColor = "rgb(245, 244, 197)";
+            cross.textContent = "";
+            zero.textContent = "";
+            begin.textContent = "";
+            begin.style.backgroundColor = "rgb(245, 244, 197)";
+            cross.style.backgroundColor = "rgb(245, 244, 197)";
+            zero.style.backgroundColor = "rgb(245, 244, 197)";
             // alert("O won");
             game=false;
             console.log("Game Over");
         }
         else if(ctr==9)
-        {
-            two_p.textContent = "";
-            two_p.style.backgroundColor = "rgb(245, 244, 197)";
+        {            
             result.textContent="DRAW";
             result.style.backgroundColor = "rgb(204, 201, 46)"; 
             turn.textContent = "";
             turn.style.backgroundColor = "rgb(245, 244, 197)";
+            cross.textContent = "";
+            zero.textContent = "";
+            begin.textContent = "";
+            begin.style.backgroundColor = "rgb(245, 244, 197)";
+            cross.style.backgroundColor = "rgb(245, 244, 197)";
+            zero.style.backgroundColor = "rgb(245, 244, 197)";
             // alert("Draw");
             game=false;
             console.log("Game Over");
@@ -185,27 +249,5 @@ function two_play(e)
     // console.log(x_pos);
     // console.log(o_pos);
 }
-
-
-// for (let box of boxes)
-// {
-//     box.addEventListener("click", mark);
-//     // if (state == "X")
-//     // {
-//     //     box.addEventListener("click", function(){box.textContent="X";box.style.fontSize= "xxx-large"; box.style.fontFamily= "cursive"; box.style.fontWeight= "1000"});
-//     //     state = "O";
-//     // }
-//     // else if (state == "O")
-//     // {
-//     //     box.addEventListener("click", function(){box.textContent="O";box.style.fontSize= "xxx-large"; box.style.fontFamily= "cursive"; box.style.fontWeight= "1000"});
-//     //     state = "X";
-//     // }
-    
-//     // console.log(e.target.classList[1]);
-//     reset.addEventListener("click", clearAll);
-// }
-
-// boxes.forEach(box => {box.addEventListener("click",play,{once:true})})
-
 
 
