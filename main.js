@@ -9,6 +9,7 @@ let turn = document.getElementById("turn")
 var result = document.getElementById("result");
 
 var two_p = document.getElementById("two_p");
+var one_p = document.getElementById("one_p");
 
 var cross = document.getElementById("cross");
 
@@ -44,8 +45,10 @@ function show_score()
 
 function initialize_two()
 {   
+    one_p.textContent = "";
     two_p.textContent = "";
     two_p.style.backgroundColor = "rgb(245, 244, 197)";
+    one_p.style.backgroundColor = "rgb(245, 244, 197)";
     if (matches==0)
         choose();
     cx = 0;
@@ -57,6 +60,14 @@ function initialize_two()
     x_pos = [];
     o_pos = [];
     start();
+}
+
+function initialize_one()
+{
+    two_p.textContent = "";
+    two_p.style.backgroundColor = "rgb(245, 244, 197)";
+    one_p.textContent = "Coming Soon...";
+    reset.addEventListener("click",mode);
 }
 
 function clearAll()
@@ -201,7 +212,11 @@ function check()
 }
 
 function mode(){
+    one_p.textContent = "1 Player";
+    two_p.textContent = "2 Player";
+    two_p.style.backgroundColor = "rgb(204, 201, 46)";
     two_p.addEventListener("click",initialize_two);
+    one_p.addEventListener("click",initialize_one);
 }
 
 mode();
