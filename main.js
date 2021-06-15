@@ -3,7 +3,7 @@ let reset = document.getElementById("reset");
 
 let boxes = document.querySelectorAll(".box");
 // console.log(boxes);
-// var box1 = 
+
 let turn = document.getElementById("turn")
 
 var result = document.getElementById("result");
@@ -530,7 +530,6 @@ function one_player_start()
 
         else
             player_start();
-    // boxes.forEach(box => {box.addEventListener("click",one_play,{once:true})});
 }
 
 function initialize_one()
@@ -632,18 +631,36 @@ function show_score_one()
     o_score_dom.textContent = "Your Score: "+o_score.toString();
 }
 
+function correct()
+{
+    boxes.forEach(box => {box.addEventListener("click",one_play,{once:true})});
+}
 
 function one_play(e)
 {
     if (game)
     {
+        console.log(remaining);
         turn.textContent = "Your Turn Now";
         turn.style.backgroundColor = "rgb(204, 201, 46)";
         reset.addEventListener("click", clearAllOne);
         box = e.target;
-        box.textContent = "O";
-        box.style.fontSize = "xxx-large"; 
-        box.style.fontWeight = "1000";
+
+        if (!(box.textContent=="X" || box.textContent=="O"))
+        {
+            box.textContent = "O";
+            box.style.fontSize = "xxx-large"; 
+            box.style.fontWeight = "1000";
+        }
+        else
+        {
+            correct();
+            return ;
+        }
+
+        turn.textContent = "Your Turn Now";
+        turn.style.backgroundColor = "rgb(204, 201, 46)";
+
         ctr++;
         console.log("ctr =",ctr);
 
@@ -667,6 +684,9 @@ function one_play(e)
             console.log("Game Over");
         }
 
+        
+        turn.textContent = "Your Turn Now";
+        turn.style.backgroundColor = "rgb(204, 201, 46)";
         
         scores();
         check_win();
@@ -734,14 +754,12 @@ function one_play(e)
             zero.style.backgroundColor = "rgb(245, 244, 197)";
             // alert("Draw");
             game=false;
-            console.log("Game Over");
+            // console.log("Game Over");
         }
 
 
     }
     reset.addEventListener("click", clearAllOne);
-    turn.textContent = "";
-    turn.style.backgroundColor = "rgb(245, 244, 197)";
 
 }
 
