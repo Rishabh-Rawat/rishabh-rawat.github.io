@@ -83,7 +83,7 @@ function clearAll()
     turn.style.backgroundColor = "rgb(245, 244, 197)";
     if (matches==0)
     {
-        two_p.textContent = "2 Player";
+        two_p.textContent = "2 Player Mode";
         two_p.style.backgroundColor = "rgb(204, 201, 46)";
         mode();
     }
@@ -152,8 +152,8 @@ function mark(box)
 
 
 function mode(){
-    one_p.textContent = "1 Player";
-    two_p.textContent = "2 Player";
+    one_p.textContent = "1 Player Mode";
+    two_p.textContent = "2 Player Mode";
     two_p.style.backgroundColor = "rgb(204, 201, 46)";
     two_p.addEventListener("click",initialize_two);
     one_p.addEventListener("click",one_player_start);
