@@ -197,7 +197,7 @@ function two_play(e)
             zero.style.backgroundColor = "rgb(245, 244, 197)";
             // alert("X won");
             game=false;
-            console.log("Game Over");
+            // console.log("Game Over");
         }
         else if(winner=="O")    
         {
@@ -219,7 +219,7 @@ function two_play(e)
             zero.style.backgroundColor = "rgb(245, 244, 197)";
             // alert("O won");
             game=false;
-            console.log("Game Over");
+            // console.log("Game Over");
         }
         else if(ctr==9)
         {            
@@ -236,7 +236,7 @@ function two_play(e)
             zero.style.backgroundColor = "rgb(245, 244, 197)";
             // alert("Draw");
             game=false;
-            console.log("Game Over");
+            // console.log("Game Over");
         }
     }
     reset.addEventListener("click", clearAll);
@@ -455,8 +455,8 @@ function one_player_start()
     two_p.style.backgroundColor = "rgb(245, 244, 197)";
     one_p.textContent = "";
     one_p.style.backgroundColor = "rgb(245, 244, 197)";
-    console.log(matches);
-    console.log("flag = ",flag);
+    // console.log(matches);
+    // console.log("flag = ",flag);
     if (!(matches))
     {   
         begin.textContent = "Who will start the game?";
@@ -586,7 +586,7 @@ function one_play(e)
 {
     if (game)
     {
-        console.log(remaining);
+        // console.log(remaining);
         turn.textContent = "Your Turn Now";
         turn.style.backgroundColor = "rgb(204, 201, 46)";
         reset.addEventListener("click", clearAllOne);
@@ -608,7 +608,7 @@ function one_play(e)
         turn.style.backgroundColor = "rgb(204, 201, 46)";
 
         ctr++;
-        console.log("ctr =",ctr);
+        // console.log("ctr =",ctr);
 
         if(ctr==9)
         {            
@@ -627,7 +627,7 @@ function one_play(e)
             turn.style.backgroundColor = "rgb(245, 244, 197)";
             // alert("Draw");
             game=false;
-            console.log("Game Over");
+            // console.log("Game Over");
         }
 
         
@@ -662,7 +662,7 @@ function one_play(e)
             zero.style.backgroundColor = "rgb(245, 244, 197)";
             // alert("X won");
             game = false;
-            console.log("Game Over");
+            // console.log("Game Over");
         }
         else if(winner=="O")    
         {
@@ -684,7 +684,7 @@ function one_play(e)
             zero.style.backgroundColor = "rgb(245, 244, 197)";
             // alert("O won");
             game=false;
-            console.log("Game Over");
+            // console.log("Game Over");
         }
         else if(ctr==9)
         {            
