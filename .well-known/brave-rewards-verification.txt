@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: rishabh-rawat.github.io
+Token: 52a132b83c40238dbd10a129880dc6494f39bec97630c94bd0cf4f030ddfca9f
